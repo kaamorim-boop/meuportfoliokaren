@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-destacado">Meu Portfólio</h1>
+        <nav class="menu-destacado">
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-mim-container">
+            <img src="Eu-removebg-preview.png" alt="Minha Foto" class="minha-foto">
+            <div class="descricao">
+                <p>Meu nome é Karen, tenho 22 anos e atualmente trabalho como auxiliar de logística no Mercado Livre. Estudo ADS e, embora a tecnologia nunca tenha sido minha primeira opção de curso, comecei a me encantar por IA. Vejo muitas oportunidades no mercado de trabalho, principalmente na empresa em que trabalho, então decidi que seria uma opção ótima para o meu desenvolvimento.</p>
+                <p>Sou uma pessoa muito ativa, não consigo passar muito tempo parada. Desde meus 16 anos, costumo trabalhar em dois lugares para ocupar a mente e ter dinheiro extra.</p>
+            </div>
+        </div>
+        <h3>Hobbies</h3>
+        <ul class="lista-hobbies">
+            <li class="simbolo1">Assistir séries</li>
+            <li class="simbolo2">Viajar</li>
+            <li class="simbolo3">Sair com a minha mãe</li>
+            <li class="simbolo4">Tomar vinhos</li>
+        </ul>
+    </section>
+    
+    </section>
+    
+    </section>
+
+    <section id="formacao">
+        <h2 class="titulo-simbolo">Formação</h2>
+        <p> 
+            <li>Ensino médio completo</li>
+            <li>Inglês básico</li>
+            <li>Graduação EAD em análise e desenvolvimentos de sistemas (cursando)</li>
+
+        <h2 class="titulo-simbolo2">Experiência Profissional</h2>
+            <li>Auxiliar administrativo (Basking memorial do Brasil)</li>
+            <li>Empreendi durante 3 anos (ramo alimentício e bebidas)</li>
+            <li>Auxuliar logístico (Mercado-livre, atual)</li>
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <ul class="listaRomana">
+        <li><a href="file:///C:/Users/Karen%20Amorim/OneDrive/Desktop/HTML%20(fundamentos%20da%20programa%C3%A7%C3%A3o%20web)/javascript3.html"target="_blank">Formulário</a></li>
+        <li><a href="file:///C:/Users/Karen%20Amorim/Downloads/projeto_tecnologica/projeto_tecnologica/index.html"target="_blank">Projeto tecnologia</a></li>
+        <li><a href="file:///C:/Users/Karen%20Amorim/OneDrive/Desktop/JavaScript/pagina2.html"target="_blank">Calculadora</a></li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer> <p>&copy; 2024 KAREN AMORIM DE SOUZA</p> </footer>
+    
+</body>
+</html>
